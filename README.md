@@ -65,7 +65,7 @@ LIMIT 10;
 3. Salary transparency (non-null compensation postings) provides a cleaner benchmark for career planning.
 
 ![Query 1 results: top-paying roles](assets/top_paying_jobs_salary.svg)
-
+[Link to query](/project_sql/1_top_paying_jobs.sql)
 ---
 
 ## Query 2 — Skills Required by Top-Paying Jobs
@@ -106,7 +106,7 @@ ORDER BY
 3. Premium roles often ask for a blend of analytics + platform/workflow tools (cloud, Git-based collaboration, BI stack).
 
 ![Query 2 results: top-paying skills frequency](assets/top_paying_jobs_skill_frequency.svg)
-
+[Link to query](/project_sql/2_top_paying_job_skills.sql)
 ---
 
 ## Query 3 — Most In-Demand Skills for Remote Data Analysts
@@ -135,7 +135,7 @@ LIMIT 5;
 3. The safest skill-growth strategy starts with high-frequency skills before niche specialization.
 
 ![Query 3 results: in-demand skills](assets/in_demand_skills_proxy.svg)
-
+[Link to query](/project_sql/3_top_indemand_skills.sql)
 ---
 
 ## Query 4 — Top Skills by Average Salary
@@ -175,7 +175,7 @@ LIMIT 25;
 | datarobot | 155,486 |
 
 ![Query 4 results: average salary by top skills](assets/top_paying_skills_avg_salary.svg)
-
+[Link to query](/project_sql/4_top_paying_skills.sql)
 ---
 
 ## Query 5 — Most Optimal Skills (High Demand + High Pay)
@@ -243,7 +243,7 @@ LIMIT 25;
 
 ![Query 5 results: demand vs salary overlap](assets/optimal_skills_demand_vs_salary.svg)
 [](assets\image.png)
-
+[Link to query](/project_sql/5_top_skill_for_DataAnalysts.sql) [Link to simplified query](/project_sql/5_Simplified.sql)
 ---
 
 # What I Learned
@@ -264,6 +264,9 @@ LIMIT 25;
 
 ## Closing thoughts
 This project confirms a simple but powerful strategy: master the analytics core, then add technical depth where salary and demand intersect. In other words—learn the skills that help you get hired *and* help you grow.
+
+Personal note: the images are more visible on VS Code in the README preview
+
 assets/in_demand_skills_proxy.svg
 assets/in_demand_skills_proxy.svg
 New
